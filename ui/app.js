@@ -1,12 +1,14 @@
 window.addEventListener('message', (event) => {
     let data = event.data
     if (data.action === 'noti') {
-        createNotification(data.title, data.message, data.type.toLowerCase(), data.duration)
+        createNotification(data.title, data.message, data.type.toLowerCase(), data.duration, data.sound)
     }
 }) 
 
+let audio = new Audio('notifySound.mp3');
+audio.volume = 0.6;
 
-const createNotification = (title, message, type, Duration) => {
+const createNotification = (title, message, type, Duration, sound) => {
     // Create Elements
     let container = document.querySelector('.container')
     let notification = createNewElement('div', 'notification')
@@ -83,6 +85,9 @@ const createNotification = (title, message, type, Duration) => {
         }
     }
 
+    if (sound) {
+        audio.play();
+    }
     anime()
 }
 
