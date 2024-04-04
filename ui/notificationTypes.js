@@ -26,6 +26,14 @@ const types = {
         color: '#fff',
         icon: 'mode_comment'
     },
+    police: {
+        color: '#1F52BF',
+        icon: 'local_police'
+    },
+    ems: {
+        color: '#C10000',
+        icon: 'emergency'
+    },
     custom: { // CUSTOM NAME FOR YOUR TYPE
         color: '#f14cfc', // YOUR CUSTOM HEX COLOR CODE
         icon: 'description' // CUSTOM ICON NAME. (MUST BE MATERIAL ICONS NOT MATERIAL SYMBOLS)
