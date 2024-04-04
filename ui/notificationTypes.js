@@ -1,6 +1,6 @@
 // Please understand Javascript objects before changing.
 
-// Color uses Hex and Icon is the google font Icon name
+// Color uses Hex and Icon is the google font Icon name, you can delete the custom object or you can customize it
 
 // DISCORD LINK FOR HELP: https://discord.gg/NAyCazqb2Y
 // GOOGLE ICONS: https://fonts.google.com/icons
@@ -25,5 +25,9 @@ const types = {
     general: {
         color: '#fff',
         icon: 'mode_comment'
-    }
+    },
+    custom: { // CUSTOM NAME FOR YOUR TYPE
+        color: '#f14cfc', // YOUR CUSTOM HEX COLOR CODE
+        icon: 'description' // CUSTOM ICON NAME. (MUST BE MATERIAL ICONS NOT MATERIAL SYMBOLS)
+    } // MUST INCLUDE A COMA WHEN CREATING A NEW OBJECT
 }

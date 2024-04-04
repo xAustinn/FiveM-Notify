@@ -7,6 +7,10 @@ version '1.0.0'
 
 ui_page 'ui/index.html'
 
+shared_scripts {
+    'config.lua'
+}
+
 client_scripts {
     'client.lua'
 }
