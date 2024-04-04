@@ -1,7 +1,7 @@
 window.addEventListener('message', (event) => {
     let data = event.data
     if (data.action === 'noti') {
-        createNotification(data.title, data.message, data.type, data.duration)
+        createNotification(data.title, data.message, data.type.toLowerCase(), data.duration)
     }
 }) 
 
@@ -60,7 +60,6 @@ const createNotification = (title, message, type, Duration) => {
     }
 
     // Making The Notification Work
-    let type = type.toLowerCase();
     let start = new Date();
     let timeoutVal = Math.floor(Duration/100)
     
