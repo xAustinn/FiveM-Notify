@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: 'Montserrat', Arial
+}
+
+body {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.notification {
+    min-height: 91.5px;
+    width: 384.1px;
+    background: rgba(50, 50, 50, 0.73);
+    border: 2px solid rgba(198, 198, 198, 0.167);
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr auto .5fr;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.249);
+    margin-bottom: 10px;
+}
+
+.showNotification {
+    animation: slideIn ease .5s forwards;
+}
+
+.hideNotification {
+    animation: slideOut ease .5s reverse;
+}
+
+.notification h1 {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.notification p {
+    font-size: 13px;
+    color: white;
+}
+
+.title {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.message {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.message p {
+    margin: 0; /* Reset margin */
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateX(400px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+}
+
+@keyframes slideOut {
+    from {
+      transform: translateX(400px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+}
+
+.progressbar {
+    grid-row: 3;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.progressbg {
+    width: 95%;
+    height: 15%;
+    border-radius: 2px;
+    background: #535353;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.progress {
+    width: 0%;
+    height: 100%;
+    border-radius: 2px;
+    background: #ffffff;
+}
+
+.icon {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 50px !important;
+    grid-row: 1 / span 2;
+    grid-column: 1;
+}
