@@ -60,7 +60,7 @@ const createNotification = (title, message, type, Duration) => {
     }
 
     // Making The Notification Work
-
+    let type = type.toLowerCase();
     let start = new Date();
     let timeoutVal = Math.floor(Duration/100)
     
