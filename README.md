@@ -30,6 +30,8 @@ Drag and drop the FiveM-Notify folder into your resources folder and just make s
 
 `TriggerClientEvent('Notify:sendNotification', source, 'Title', 'Message', 'Type', 'Duration')`
 
+- Sound should be true or false
+
 **How To Add Custom Types**
 
 Use a text editor of choice ([VSCode](https://code.visualstudio.com/download) would be best). Open the notificationTypes.js file.
