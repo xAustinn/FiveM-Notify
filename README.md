@@ -14,6 +14,12 @@ A free and modern looking notification system for FiveM. With customizable Icons
 
 Drag and drop the FiveM-Notify folder into your resources folder and just make sure that you start the resource!
 
+**Config**
+
+`Config.debugCmd = false` - Disables test commands
+
+`Config.debugCmd = true` - Enables test command (/notify)
+
 **Developer Docs**
 
 - Client Side Trigger
