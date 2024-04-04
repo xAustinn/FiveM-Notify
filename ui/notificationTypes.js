@@ -8,7 +8,7 @@
 const types = {
     success: {
         color: '#72BD36',
-        icon: 'check_circle' // Google font icon name (if you need help join the Discord)
+        icon: 'check_circle' 
     },
     info: {
         color: '#5CA7FF',
