@@ -1,6 +1,6 @@
 ## **FREE CUSTOMIZABLE FIVEM NOTIFICATION SYSTEM**
 
-[Need Help?](https://discord.gg/NVhMrrVhxU)
+[Need Help?](https://discord.gg/NAyCazqb2Y )
 
 A free and modern looking notification system for FiveM. With customizable Icons and Colors!
 
