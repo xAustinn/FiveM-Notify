@@ -20,17 +20,22 @@ Drag and drop the FiveM-Notify folder into your resources folder and just make s
 
 `Config.debugCmd = true` - Enables test command (/notify)
 
+`Config.usePosition = true` - Uses the Config.Position by default for every notification
+
+`Config.Position = 'Right'` - Currently only supports Left & Right
+
 **Developer Docs**
 
 - Client Side Trigger
 
-`exports['FiveM-Notify']:sendNotification('Title', 'Message', Type, 'Duration')`
+`exports['FiveM-Notify']:sendNotification('Title', 'Message', Type, 'Duration', Sound, 'Position')`
 
 - Server Side Trigger
 
-`TriggerClientEvent('Notify:sendNotification', source, 'Title', 'Message', 'Type', 'Duration')`
+`TriggerClientEvent('Notify:sendNotification', source, 'Title', 'Message', 'Type', 'Duration', Sound, 'Position')`
 
 - Sound should be true or false
+- Currently the only supported positions are Left & Right. More coming soon, **ONLY WORKS WHEN** `Config.setPosition` **IS SET TO FALSE.**
 
 **How To Add Custom Types**
 
