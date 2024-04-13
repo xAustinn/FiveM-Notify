@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Austinn'
 description 'Free FiveM notification system'
-version '1.0.1'
+version '1.0.2'
 
 ui_page 'ui/index.html'
 
