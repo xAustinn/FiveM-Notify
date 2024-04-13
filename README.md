@@ -16,6 +16,8 @@ Drag and drop the FiveM-Notify folder into your resources folder and just make s
 
 **Config**
 
+**WARNING:** POSITIONS ARE CURRENTLY IN THE PRE RELEASE ON GITHUB. MAKE SURE YOU HAVE VERSION 1.0.2 IN ORDER TO USE NEW POSITIONS IN CONFIG.
+
 `Config.debugCmd = false` - Disables test commands
 
 `Config.debugCmd = true` - Enables test command (/notify)
