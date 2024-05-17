@@ -4,7 +4,7 @@
 
 A free and modern looking notification system for FiveM. With customizable Icons and Colors!
 
-![Preview](https://forum-cfx-re.akamaized.net/original/5X/8/0/1/d/801da90d8e17669e5b68ee750261da796cdb93ce.png)
+![Preview](https://i.ibb.co/Kms7yJW/image.png)
 
 [**PREVIEW**](https://youtu.be/QcWDzXs2TKU?si=vR4v8IdI8oqrSqPh)
 
